@@ -72,7 +72,7 @@ class MockTest {
     }
 
 
-    private static class MockTestModel {
+    private static class MockTestModel implements Serializable {
         private final String name;
         private final int age;
 
@@ -87,6 +87,13 @@ class MockTest {
 
         public int getAge() {
             return JrlMockUtil.mock(MockTestModel.class, "getAge", () -> age);
+        }
+
+        void run(Runnable runnable) {
+            final JrlMockResponse<Object> run = JrlMockUtil.mock(MockTestModel.class, "run");
+            if (!run.isMock()) {
+                runnable.run();
+            }
         }
     }
 }
