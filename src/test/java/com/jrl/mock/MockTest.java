@@ -1,6 +1,6 @@
-package com.wb.jrl.mock;
+package com.jrl.mock;
 
-import com.wb.jrl.mock.model.JrlMockResponse;
+import com.jrl.mock.model.JrlMockResponse;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

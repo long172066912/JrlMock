@@ -1,6 +1,6 @@
-package com.wb.jrl.mock.core;
+package com.jrl.mock.core;
 
-import com.wb.jrl.mock.JrlMockRule;
+import com.jrl.mock.JrlMockRule;
 
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;

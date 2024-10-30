@@ -1,7 +1,7 @@
-package com.wb.jrl.mock;
+package com.jrl.mock;
 
-import com.wb.jrl.mock.core.JrlMockRuleFactory;
-import com.wb.jrl.mock.model.JrlMockResponse;
+import com.jrl.mock.core.JrlMockRuleFactory;
+import com.jrl.mock.model.JrlMockResponse;
 
 import java.util.function.Supplier;
 

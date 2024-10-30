@@ -1,4 +1,4 @@
-package com.wb.jrl.mock;
+package com.jrl.mock;
 
 import java.util.concurrent.TimeUnit;
 

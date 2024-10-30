@@ -1,4 +1,4 @@
-package com.wb.jrl.mock.model;
+package com.jrl.mock.model;
 
 import java.io.Serializable;
 

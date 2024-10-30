@@ -1,7 +1,7 @@
-package com.wb.jrl.mock.core;
+package com.jrl.mock.core;
 
-import com.wb.jrl.mock.JrlMock;
-import com.wb.jrl.mock.JrlMockRule;
+import com.jrl.mock.JrlMock;
+import com.jrl.mock.JrlMockRule;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

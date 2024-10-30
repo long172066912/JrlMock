@@ -1,6 +1,6 @@
-package com.wb.jrl.mock;
+package com.jrl.mock;
 
-import com.wb.jrl.mock.core.JrlMockRuleBuilder;
+import com.jrl.mock.core.JrlMockRuleBuilder;
 
 /**
  * mock api，用来定义mock规则
